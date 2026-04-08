@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+.header-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.menu-div{
+  display: flex;
+  align-items: center;
+  gap: 111px;
+}
+.header-menu-list {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  display: flex;
+  gap: 50px;
+}
+.header-menu-link {
+  text-decoration: none;
+  color: black;
+}
+.sign-up-list{
+  display: flex;
+  gap: 27px;
+}
+.sign-up-button {
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffb36c;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  cursor: pointer;
+}
